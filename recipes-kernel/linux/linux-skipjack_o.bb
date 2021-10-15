@@ -16,6 +16,7 @@ SRC_URI = "git://android.googlesource.com/kernel/msm;branch=android-msm-skipjack
     file://0001-scripts-dtc-Remove-redundant-YYLOC-global-declaratio.patch \
     file://0002-ARM-fix-put_user-for-gcc-8.patch \
     file://0003-touchscreen-Disable-extlibs.patch \
+    file://0004-usb-gadget-Include-gadget-path-to-resolve-gadgetfs.h.patch \
     file://defconfig \
     file://img_info"
 SRCREV = "a3099f57d3d213992f2b123503b18d91975c7875"

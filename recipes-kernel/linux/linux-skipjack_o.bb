@@ -14,6 +14,7 @@ DEPENDS += "virtual/${TARGET_PREFIX}gcc8"
 
 SRC_URI = "git://android.googlesource.com/kernel/msm;branch=android-msm-skipjack-3.18-pie-wear-dr;protocol=https \
     file://0001-scripts-dtc-Remove-redundant-YYLOC-global-declaratio.patch \
+    file://0001-Disable-double-buffering.patch \
     file://0002-ARM-fix-put_user-for-gcc-8.patch \
     file://0003-touchscreen-Disable-extlibs.patch \
     file://defconfig \
